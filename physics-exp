@@ -1,0 +1,8 @@
+#!/usr/bin/env python3
+
+from src.main import main
+
+try:
+    main()
+except (EOFError, KeyboardInterrupt) as err:
+    print('\nTHX for using.')

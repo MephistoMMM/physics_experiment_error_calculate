@@ -32,7 +32,6 @@ def main():
     lovely by mpsss.
     """
     arguments = docopt(main.__doc__, version="α")
-    print(arguments)
 
     if arguments['direct']:
         direct(arguments)

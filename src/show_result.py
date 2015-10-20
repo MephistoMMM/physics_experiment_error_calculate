@@ -12,7 +12,7 @@ def show_result_direct(average, u, E):
     print("result:\n" +
           "\taverage: {:>.6f}".format(average) +
           "\tu: {:>.6f}".format(u) +
-          "\tE: {:>.6f}".format(E))
+          "\tE: {:>.6f}%".format(E))
     print("{:-^40}".format(''))
 
 
@@ -24,10 +24,10 @@ def show_result_indirect(results,average, u, E):
         print("args({}):\t".format(i) +
               "\taverage: {:>.6f}".format(results[i][R_AVERAGE]) +
               "\tu: {:>.6f}".format(results[i][R_U]) +
-              "\tE: {:>.6f}".format(results[i][R_E]))
+              "\tE: {:>.6f}%".format(results[i][R_E]))
 
     print("\nresult:\n" +
           "\taverage: {:>.6f}".format(average) +
           "\tu: {:>.6f}".format(u) +
-          "\tE: {:>.6f}".format(E))
+          "\tE: {:>.6f}%".format(E))
     print("{:-^40}".format(''))
